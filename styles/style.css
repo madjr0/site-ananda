@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F8A70;
+    color: #E7B10A;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.navegacao {
+    padding: 3%;
+}
+
+.navegacao__menu {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.navegacao__links {
+    font-size: 1.5rem;
+    color: #FC7300;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.titulo__principal {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 3.75rem;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 1% 10%;
+}
+
+.conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texto {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.foto__casal {
+    width: 100%;
+}
+
+.apresentacao__fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fotos {
+    width: 30%;
+}
+
+
+@media (max-width: 1000px) {
+    .navegacao__menu {
+        gap: 30px;
+        padding: 10% 0;
+    }
+
+    .titulo__principal {
+        font-size: 3rem;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .fotos {
+        width: 33%;
+    }
+}
+
